@@ -135,7 +135,7 @@ public class WorldTest {
 compile 'com.google.code.gson:gson:2.3'
 ```
 
-### Refactore World class to include gson output.
+### Refactoring World class to include gson output.
 ```
 package com.bangsapabbi.helloworld;
 
