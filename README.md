@@ -1,6 +1,6 @@
 hugb_hello_world
 ================
-(T-303-HUGB, Hugbúnaðarfræði, 2014-3)
+(T-303-HUGB, Hugbúnaðarfræði, 2016-3)
 
 Sample program used to show students Gradle in action.
 
@@ -8,7 +8,7 @@ Sample program used to show students Gradle in action.
 What was done
 ===========
 
-####NOTE: I used gradle 2.1 in the lecture.
+####NOTE: I used gradle 3.1 in the lecture.
 
 ## Create project
 
@@ -81,15 +81,10 @@ public class World {
 }
 ```
 
-- To speed up gradle add the following line to ```$HOME/.gradle/gradle.properties``` on unix/linux platform.
-
-```
-org.gradle.daemon=true
-```
-
 
 ## Testing
 
+- Navigate to src/test/java 
 - Create folder structure (```mkdir -p com/bangsapabbi/helloworld```)
 - Add **WorldTest.java** file.
 
